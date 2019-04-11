@@ -13,7 +13,7 @@
 */
 
 // Polyfill `document.registerElement`.
-require('document-register-element');
+require('document-register-element-aframe');
 
 var ANode;  // Must declare before AEntity. Initialized at the bottom.
 var AEntity;

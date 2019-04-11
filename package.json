@@ -29,7 +29,7 @@
     "test:nobrowser": "NO_BROWSER=true npm test",
     "test:node": "mocha --ui tdd tests/node"
   },
-  "repository": "aframevr/aframe",
+  "repository": "ShashankaNataraj/aframe",
   "license": "MIT",
   "files": [
     "dist/*",
@@ -40,9 +40,9 @@
   "dependencies": {
     "browserify-css": "^0.8.4",
     "custom-event-polyfill": "^1.0.6",
-    "debug": "ngokevin/debug#noTimestamp",
+    "debug-aframe-cv": "^2.6.3",
     "deep-assign": "^2.0.0",
-    "document-register-element": "dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90",
+    "document-register-element-aframe": "^0.5.5",
     "envify": "^3.4.1",
     "load-bmfont": "^1.2.3",
     "object-assign": "^4.0.1",
@@ -55,7 +55,7 @@
     "webvr-polyfill": "^0.10.10"
   },
   "devDependencies": {
-    "browserify": "^13.1.0",
+    "browserify": "^13.3.0",
     "browserify-derequire": "^0.9.4",
     "browserify-istanbul": "^2.0.0",
     "budo": "^9.2.0",
@@ -82,7 +82,6 @@
     "karma-mocha-reporter": "^2.1.0",
     "karma-sinon-chai": "1.2.4",
     "lolex": "^1.5.1",
-    "markserv": "github:sukima/markserv#feature/fix-broken-websoketio-link",
     "minifyify": "^7.3.3",
     "mocha": "^3.0.2",
     "mozilla-download": "^1.1.1",
@@ -93,7 +92,6 @@
     "sinon": "^1.17.5",
     "sinon-chai": "2.8.0",
     "snazzy": "^5.0.0",
-    "too-wordy": "ngokevin/too-wordy",
     "uglifyjs": "^2.4.10",
     "write-good": "^0.9.1"
   },
